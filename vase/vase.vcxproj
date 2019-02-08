@@ -79,6 +79,10 @@
     <IncludePath>$(SolutionDir)\freeglut\include\;$(IncludePath)</IncludePath>
     <LibraryPath>$(SolutionDir)\freeglut\lib\;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>D:\cppProjects\vaseCPP\freeglut\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\cppProjects\vaseCPP\freeglut\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
